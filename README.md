@@ -32,17 +32,17 @@ Vídeo que eu fiz para explicar todo o processo de criação de um projeto conso
 
 1. Abra o Visual Studio e selecione a opção `Create a new project`
 
-![Untitled](Criando%20um%20projeto%20console%20ae3691432f5643119ff3fd325b4f87d7/Untitled.png)
+![Untitled](images/Untitled.png)
 
 1. Vai mostrar uma tela com diferentes templates de projetos, nós vamos escolher a opção `Blank Solution` que vai nos deixar construir qualquer tipo de projeto, ele vai criar um projeto inicial somente com um arquivo `.sln` (Todo projeto .NET é uma Solução).
 
  
 
-![Untitled](Criando%20um%20projeto%20console%20ae3691432f5643119ff3fd325b4f87d7/Untitled%201.png)
+![Untitled](images/Untitled%201.png)
 
 1. Coloque o nome da Solução seguindo o exemplo CamelCase e selecione a opção `Create`
 
-![Untitled](Criando%20um%20projeto%20console%20ae3691432f5643119ff3fd325b4f87d7/Untitled%202.png)
+![Untitled](images/Untitled%202.png)
 
 ### Criando um Projeto Console (Console App)
 
@@ -50,33 +50,33 @@ Vídeo que eu fiz para explicar todo o processo de criação de um projeto conso
 
 - Abra a solução e no canto direito tem a aba chamada `Solution Explorer`
 
-![Untitled](Criando%20um%20projeto%20console%20ae3691432f5643119ff3fd325b4f87d7/Untitled%203.png)
+![Untitled](images/Untitled%203.png)
 
 - Clique com o botão direito do mouse no nome da Solução .NET
 
-![Untitled](Criando%20um%20projeto%20console%20ae3691432f5643119ff3fd325b4f87d7/Untitled%204.png)
+![Untitled](images/Untitled%204.png)
 
 - Procure pela opção `Add > New Project...`
 
-![Untitled](Criando%20um%20projeto%20console%20ae3691432f5643119ff3fd325b4f87d7/Untitled%205.png)
+![Untitled](images/Untitled%205.png)
 
 - Procure pelo tipo de projeto chamado `Console App` e clique em `Next`
 
-![Untitled](Criando%20um%20projeto%20console%20ae3691432f5643119ff3fd325b4f87d7/Untitled%206.png)
+![Untitled](images/Untitled%206.png)
 
 - Coloque um nome para a Solução seguindo o estilo *CamelCase* onde a primeira letra de cada palavra é maiuscula.
 - O local do projeto deve ser o mesmo da solução.
 - Após verificado essas informações, clique em `Next`
 
-![Untitled](Criando%20um%20projeto%20console%20ae3691432f5643119ff3fd325b4f87d7/Untitled%207.png)
+![Untitled](images/Untitled%207.png)
 
 - Por fim, coloque a versão do .NET que você esteja usando e clique em `Create`
 
-![Untitled](Criando%20um%20projeto%20console%20ae3691432f5643119ff3fd325b4f87d7/Untitled%208.png)
+![Untitled](images/Untitled%208.png)
 
 - Após isso o Visual Studio vai criar o Projeto dentro da Solução e vai automaticamente abrir o arquivo `Program.cs` que é onde vamos colocar o código C# que o Visual Studio vai rodar para nós quando compilarmos.
 
-![Untitled](Criando%20um%20projeto%20console%20ae3691432f5643119ff3fd325b4f87d7/Untitled%209.png)
+![Untitled](images/Untitled%209.png)
 
 ### Executando o Projeto
 
@@ -84,20 +84,20 @@ Vídeo que eu fiz para explicar todo o processo de criação de um projeto conso
 
 - Para executar o projeto devemos definir ele como o principal para ser executado, onde vamos clicar com o botão direito em cima dele e escolher a opção `Set as Startup Project`
 
-![Untitled](Criando%20um%20projeto%20console%20ae3691432f5643119ff3fd325b4f87d7/Untitled%2010.png)
+![Untitled](images/Untitled%2010.png)
 
 - Com isso agora vai mostrar o nome do nosso projeto na área de Runner do Visual Studio:
 
-![Untitled](Criando%20um%20projeto%20console%20ae3691432f5643119ff3fd325b4f87d7/Untitled%2011.png)
+![Untitled](images/Untitled%2011.png)
 
 - Podemos usar o atalho de teclado `Ctrl` + `Shift` + `B` para compilar o projeto.
 - Quando compilamos, vai abrir um console de `Output` dentro do Visual Studio
 
-![Untitled](Criando%20um%20projeto%20console%20ae3691432f5643119ff3fd325b4f87d7/Untitled%2012.png)
+![Untitled](images/Untitled%2012.png)
 
 - Agora que o projeto foi compilado, podemos clicar no botão de `Run` do projeto e vai ser aberto um console (no meu caso o Powershell) com o resultado da compilação do arquivo `Program.cs`
 
-![Untitled](Criando%20um%20projeto%20console%20ae3691432f5643119ff3fd325b4f87d7/Untitled%2013.png)
+![Untitled](images/Untitled%2013.png)
 
 ## Conclusão
 
